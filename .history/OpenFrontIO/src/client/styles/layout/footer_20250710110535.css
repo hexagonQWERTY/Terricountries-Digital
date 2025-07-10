@@ -1,0 +1,28 @@
+.l-footer {
+  background: rgba(255, 255, 255, 0.15); /* semi-transparent */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(var(--blur-md));
+  -webkit-backdrop-filter: blur(var(--blur-md));
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+
+  @media (min-width: 800px) {
+    padding: 12px 24px;
+  }
+}
+
+.l-footer__content {
+  max-width: 860px;
+  flex-wrap: wrap;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.l-footer__col {
+  display: flex;
+  gap: 20px;
+}

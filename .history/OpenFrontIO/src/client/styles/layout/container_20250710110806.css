@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 1.5rem 2rem; /* increased vertical and horizontal padding */
+  max-width: 640px !important; /* increased max-width */
+  flex-direction: column;
+  gap: 1.5rem; /* slightly increased gap */
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+   position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -60%);
+}
+
+
+.container__row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.container__row--equal > * {
+  flex: 1 1 100%;
+}
+.container {
+ 
+}
